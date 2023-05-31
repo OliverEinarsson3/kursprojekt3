@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="cart.js"></script>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="shoppingcart.js"></script>
+</head>
+<body onload="window.onload()">
+    <div id="topbarMain">
+        <img src="formula-1.png">
+        <div id="cart">
+            <a href="cart.html"><img src="cart.png"></a>
+        </div>
+    
+    <div id="topbarNav">
+        
+        <button type="button" onclick="location.href='index.html';">
+            Hem
+        </button>
+       <button type="button" onclick="location.href='förare.html';">
+            Förare
+        </button>
+        <button type="button" onclick="location.href='teams.html';">
+            Teams
+        </button>
+        <button type="button" onclick="location.href='constructor.html';">
+            Constructors
+        </button>
+        <button type="button" onclick="location.href='standings.html';">
+            Standings
+        </button>
+        <button type="button" onclick="location.href='schedule.html';">
+            Race
+        </button>
+        <button type="button" onclick="location.href='bilen.html';">
+            Bilen
+        </button>
+        <button type="button" onclick="location.href='biljetter.html';">
+            Biljetter
+        </button>
+        <button type="button" onclick="location.href='kontakt.html';">
+            Kontakt
+        </button>
+
+
+
+    </div>
+
+    </div>
+  <div id="cart-container">
+    <h2>Shopping Cart</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Item Name</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="cart-table">
+        <!-- Cart items will be displayed here -->
+      </tbody>
+    </table>
+    <div>
+      <h3>Total Price: <span id="total-price">$0.00</span></h3>
+      <button onclick="clearCart()">Clear Cart</button>
+    </div>
+
+  
+    
+</body>
+</html>

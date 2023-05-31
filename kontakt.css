@@ -1,0 +1,32 @@
+*{
+    background-color: lightgray;
+}
+
+#kontakt{
+    
+}
+
+#kontakt header{
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-size: 400%;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#kontakt h1{
+    font-size: 100%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#kontaktinfo{
+    height: 20%;
+    width: 100%;
+    margin-top: 20%;
+    background-color: red !important;
+    
+}
